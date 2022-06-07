@@ -11,7 +11,6 @@ namespace WebJob
     {
         public static async Task Main()
         {
-
             var host = new HostBuilder()
                 .UseEnvironment("Development")
                 .ConfigureLogging((context, b) =>
